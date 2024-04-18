@@ -1,0 +1,7 @@
+{
+  "{**/*,*}.{js?(x),ts?(x)}": [
+    "eslint --fix",
+    "prettier --write --ignore-unknown"
+  ],
+  "{**/*,*}.{?(s)css,html,json,y?(a)ml,md}": "prettier --write --ignore-unknown"
+}
